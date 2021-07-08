@@ -174,11 +174,14 @@ h5{
 h6{
     font-size:16px
 }
+.w3-icon-size{
+    width:50px!important;
+    height:50px!important;
+}
 .w3-white-bg-color{
     background:#fff;
     color:#003539!important;
     position:relative;
-    z-index:1;
     margin-top:20px;
     margin-bottom:20px;
 }
@@ -369,7 +372,7 @@ a{
     position:relative
 }
 .w3-display-container{
-    height: 1000px;
+    height: 135vh;
 }
 .w3-tooltip .w3-text{
     display:none
@@ -681,6 +684,9 @@ a{
 }
 .w3-show-inline-block{
     display:inline-block!important
+}
+.w3-display-inline{
+    display:-webkit-inline-box!important;
 }
  @media (max-width:1205px){
     .w3-auto{
